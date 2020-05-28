@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Tech Summit Conference</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <link href="img/logo.png" rel="icon">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+
+    <link href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+
+            <h1 class="logo mr-auto"><a href="index.html">TechSummit</a></h1>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="drop-down active"><a href="">Author <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul>
+                            <li class="active"><a href="onlinepapersubmission.html">Online Submission</a></li>
+                        </ul>
+                    </li>
+                    <li class="drop-down"><a href="">Attendee <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <ul>
+                            <li><a href="register.html">Register</a></li>
+                            
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <a href="register.html" class="get-started-btn">Register</a>
+
+        </div>
+    </header>
+    <main id="main">
+        <section id="about" class="about" style="margin-top: 30px;">
+            <div class="container" data-aos="fade-up" >
+        
+                <div class="section-title"  style="text-align: center;">
+                    <p>Online Final Paper Submission</p>
+                </div>
+        
+                <div class="row">
+                    <!---form for file submission---->
+                    <div class="col-md-6" style="margin: 0 auto;">
+                        <div class="tile">
+                
+                            <div class="tile-body">
+                                <form autocomplete="off" method="post" enctype="multipart/form-data">
+                                    <div class="form-group">
+                                        <label class="control-label">First Author's Name<x style="color:red">*</x></label>
+                                        <input class="form-control" type="text" placeholder="Enter full name" name="PersonName"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Institution<x style="color:red">*</x></label>
+                                        <input class="form-control" type="text" placeholder="Enter Institution name" name="Institution"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Branch<x style="color:red">*</x></label>
+                                        <!---- <input class="form-control" type="text" placeholder="Enter Branch Name" name="Branch" required>----->
+                                        <select class="form-control" name="Branch" required>
+                                            <option value="">Select Branch Name</option>
+                                            <option value="Civil Engineering">Civil Engineering</option>
+                                            <option value="Mechanical Engineering">Mechanical Engineering</option>
+                                            <option value="Electrical Engineering">Electrical Engineering</option>
+                                            <option value="Electronics And Telecommunication Engineering">Electronics And
+                                                Telecommunication Engineering</option>
+                                            <option value="Computer/Information Technology">Computer/Information Technology</option>
+                                            <option value="Applied Sciences">Applied Sciences</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Author's email<x style="color:red">*</x></label>
+                                        <input class="form-control" type="email" placeholder="Enter Author's email" name="email"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Phone<x style="color:red">*</x></label>
+                                        <input class="form-control" type="tel" placeholder="Enter phone no" name="Phone" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Paper Title<x style="color:red">*</x></label>
+                                        <input class="form-control" type="text" placeholder="Enter Paper title" name="papertitle"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label">Abstract<x style="color:red">*</x></label>
+                                        <textarea class="form-control" rows="4" placeholder="Enter your Abstract text" name="message"
+                                            required></textarea>
+                                    </div>
+                
+                                    <div class="form-group">
+                                        <label class="control-label">Attach your Final Paper<x style="color:red">*</x></label>
+                                        <input class="form-control" type="file" name="fileToUpload" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" required>I accept the terms and
+                                                conditions
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="tile-footer">
+                                        <button class="btn " style="background-color:#802BB1;color: white;" name="submitAbstractFile" type="submit"><i
+                                                class="fa fa-fw fa-lg fa-check-circle"></i>Submit Abstract</button>&nbsp;&nbsp;&nbsp;<a
+                                            class="btn btn-secondary" href="#"><i class="fa fa-fw fa-lg fa-times-circle"></i>Cancel</a>
+                                    </div>
+                                </form>
+                            </div>
+                
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>TechSummit</h3>
+                        <p>
+                           Hyderabad <br> Telangana<br> India 12345<br><br>
+                            <strong>Phone:</strong> +1 9898989898<br>
+                            <strong>Email:</strong> info@example.com<br>
+                        </p>
+                    </div>
+
+                
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-md-flex py-4">
+
+            <div class="mr-md-auto text-center text-md-left">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>TechSummit</span></strong>. All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="lib/bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/jQuery/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
